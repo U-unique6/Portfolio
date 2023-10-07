@@ -35,7 +35,7 @@ let main= document.querySelectorAll(".section");
 main.forEach((el)=>observer.observe(el));
 
 //project link
-let projectlink=["https://u-unique6.github.io/Todo-list/" , "https://u-unique6.github.io/Drum-Play/" , "https://u-unique6.github.io/Dice-Game/" ,"https://u-unique6.github.io/Digital-clock/", "https://u-unique6.github.io/Myntra-clone/"]
+let projectlink=["https://ttodo-list.netlify.app/" , "https://drum-playy.netlify.app" , "https://diceggame.netlify.app" ,"https://digitaalclock.netlify.app/", "https://myntra-cclone.netlify.app" ,"https://netflixcloone.netlify.app/"]
 
 let project = document.querySelectorAll(".pro");
 
