@@ -243,7 +243,11 @@ transition: all 0.3s ease;
 transform: translateY(-5%);
  cursor: pointer;
  }
-   
+  .content
+{
+      padding:0px 8px;
+ }
+
  
  .content .intro{
   text-align: center;
@@ -393,6 +397,13 @@ padding-bottom: 100px;
   
 }
 .project-5{
+    background-image: url(img/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.project-6{
     background-image: url(img/2.png);
     background-size: cover;
     background-position: center;
