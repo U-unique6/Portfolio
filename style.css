@@ -243,10 +243,7 @@ transition: all 0.3s ease;
 transform: translateY(-5%);
  cursor: pointer;
  }
-  .content
-{
-      padding:0px 12px;
- }
+
 
  
  .content .intro{
