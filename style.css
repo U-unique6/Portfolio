@@ -193,15 +193,14 @@ nav a {
   justify-content: space-between;
   margin-top: 50px;
   gap: 60px;
-
   align-items: center;
 }
 .container-about {
   width: 48%;
-  height: 330px;
+  max-height: 1000px;
+  min-height: 340px;
   border: 2px solid rgb(236, 189, 249);
   border-radius: 10px;
-
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 10px 0px;
   transition: all 0.3s ease;
 }
@@ -215,7 +214,7 @@ nav a {
 }
 .content h1 {
   color: rgb(0, 0, 0);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -233,7 +232,8 @@ nav a {
 
 .container-skill {
   width: 48%;
-  height: 330px;
+  min-height: 350px;
+  max-height: 1000px;
   border: 2px solid rgb(236, 189, 249);
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -256,7 +256,7 @@ nav a {
   letter-spacing: 1px;
 }
 .btn-skill button {
-  padding: 12px 20px;
+  padding: 10px 10px;
   margin-bottom: 20px;
   text-align: center;
   margin-right: 8px;
